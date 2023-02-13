@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://localhost:3000/measureDistance" method="post">
+    <label for="radius">radius:</label><br>
+    <input type="text" id="radius" name="radius" value="1000"><br><br>
+    <label for="latitude1">latitude1:</label><br>
+    <input type="text" id="latitude1" name="latitude1" value="48.8583736"><br>
+    <label for="longitude1">longitude1:</label><br>
+    <input type="text" id="longitude1" name="longitude1" value="2.2922926"><br><br>
+    <label for="latitude2">latitude2:</label><br>
+    <input type="text" id="latitude2" name="latitude2" value="45.8583736"><br>
+    <label for="longitude2">longitude2:</label><br>
+    <input type="text" id="longitude2" name="longitude2" value="1.2922926"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "http://localhost:3000/random".</p>
+
+</body>
+</html>
